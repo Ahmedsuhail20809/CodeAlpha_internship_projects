@@ -1,11 +1,9 @@
-# Hangman Game----
-## by suhail Ahmed
-## Github: https://github.com/techub2009
+#Task 01: Hangman Game----
 
 import random
 
 # let's crate list of words for game, each word has 5 letters
-word_list = ["apple", "house", "tiger", "chair", "plant",'lions','sorry','happy','right','wrong']
+word_list = ["apple", "house", "tiger", "chair", "plant"]
 
 # Randomly select a word from the list
 secret_word = random.choice(word_list)
